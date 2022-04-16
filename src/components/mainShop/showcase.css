@@ -1,0 +1,15 @@
+#showcase-container {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+#showcase-container > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  #showcase-container {
+    margin-top: 50px;
+    width: 100%;
+  }
+}
