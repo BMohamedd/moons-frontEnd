@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://moons-clothing-backend.herokuapp.com/";
+const url = "https://moons-clothing-backend.herokuapp.com";
 
 export const authenticationRequest = (data) => axios.post(`${url}/login`, data);
 export const wakeUpServer = () => axios.get(url);
