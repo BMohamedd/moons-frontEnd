@@ -110,7 +110,6 @@ function ShoppingCartDrawer() {
         });
       }
     });
-    console.log(array);
     return array;
   };
 
@@ -172,7 +171,7 @@ function ShoppingCartDrawer() {
                             <ListItemText primary={val.name} color="primary" />
                             <Typography>Amount: {val.amount}</Typography>
                             <Typography>
-                              TotalPrice: {val.amount * val.price}£
+                              TotalPrice: {Math.round(val.amount * val.price)}£
                             </Typography>
                             <Typography>
                               {val.type === "null"

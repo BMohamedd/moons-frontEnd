@@ -128,7 +128,7 @@ function Login() {
               <Grid item>
                 <Stack direction="row" alignItems="center" spacing={5}>
                   <Typography>
-                    {sleep === ""
+                    {sleep === {}
                       ? "waking up server"
                       : "server up and running!"}
                   </Typography>

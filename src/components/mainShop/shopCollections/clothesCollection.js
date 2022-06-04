@@ -34,7 +34,7 @@ function ClothesCollection() {
       "Mossy Moon Hoodie",
       "39.99",
       mussymoon,
-      "1",
+      1,
       "medium",
     ]);
   };
@@ -45,7 +45,7 @@ function ClothesCollection() {
       "80's Moon Hoodie",
       "39.99",
       eightesmoon,
-      "1",
+      1,
       "medium",
     ]);
   };
@@ -56,7 +56,7 @@ function ClothesCollection() {
       "Plain Moon Hoodie",
       "39.99",
       plainmoon,
-      "1",
+      1,
       "medium",
     ]);
   };

@@ -35,7 +35,7 @@ function ClothesCollection() {
       "Classic Mask with Awsesome drawing",
       "10.99",
       classicMask,
-      "1",
+      1,
       "medium",
     ]);
   };
@@ -46,7 +46,7 @@ function ClothesCollection() {
       "Classic Aqua Mask",
       "10.99",
       classicAquaMask,
-      "1",
+      1,
       "medium",
     ]);
   };
@@ -57,7 +57,7 @@ function ClothesCollection() {
       "Awsesome Moon Mask",
       "10.99",
       moonMask,
-      "1",
+      1,
       "medium",
     ]);
   };
@@ -119,11 +119,11 @@ function ClothesCollection() {
                 </Button>
               </Grid>
               <Grid item>
-//                 <Tooltip title="add to cart">
-//                   <IconButton onClick={addclassicMask}>
-//                     <AddShoppingCartRoundedIcon />
-//                   </IconButton>
-//                 </Tooltip>
+                <Tooltip title="add to cart">
+                  <IconButton onClick={addclassicMask}>
+                    <AddShoppingCartRoundedIcon />
+                  </IconButton>
+                </Tooltip>
               </Grid>
             </Grid>
           </CardActions>
@@ -176,11 +176,11 @@ function ClothesCollection() {
                 </Button>
               </Grid>
               <Grid item>
-//                 <Tooltip title="add to cart">
-//                   <IconButton onClick={addAquaMask}>
-//                     <AddShoppingCartRoundedIcon />
-//                   </IconButton>
-//                 </Tooltip>
+                <Tooltip title="add to cart">
+                  <IconButton onClick={addAquaMask}>
+                    <AddShoppingCartRoundedIcon />
+                  </IconButton>
+                </Tooltip>
               </Grid>
             </Grid>
           </CardActions>
@@ -231,11 +231,11 @@ function ClothesCollection() {
                 </Button>
               </Grid>
               <Grid item>
-//                 <Tooltip title="add to cart">
-//                   <IconButton onClick={addMoonMask}>
-//                     <AddShoppingCartRoundedIcon />
-//                   </IconButton>
-//                 </Tooltip>
+                <Tooltip title="add to cart">
+                  <IconButton onClick={addMoonMask}>
+                    <AddShoppingCartRoundedIcon />
+                  </IconButton>
+                </Tooltip>
               </Grid>
             </Grid>
           </CardActions>

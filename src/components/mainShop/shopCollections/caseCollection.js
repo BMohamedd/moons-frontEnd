@@ -32,7 +32,7 @@ function CaseCollection() {
       "DawnLigh",
       "12.99",
       water,
-      "1",
+      1,
       "null",
     ]);
   };
@@ -43,7 +43,7 @@ function CaseCollection() {
       "SpaceTurtules",
       "12.99",
       space,
-      "1",
+      1,
       "null",
     ]);
   };
@@ -54,7 +54,7 @@ function CaseCollection() {
       "MoonStages",
       "12.99",
       moonstages,
-      "1",
+      1,
       "null",
     ]);
   };
